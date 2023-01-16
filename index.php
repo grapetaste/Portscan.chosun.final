@@ -19,7 +19,7 @@
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="./images/barcode.PNG" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
@@ -28,13 +28,11 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <!-- fontawesome -->
+      <script src="https://kit.fontawesome.com/6604ab134b.js" crossorigin="anonymous"></script>
    </head>
    <!-- body -->
    <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-      </div>
       <!-- end loader -->
       <div id="mySidepanel" class="sidepanel">
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
@@ -49,21 +47,19 @@
       <!-- header -->
       <header>
          <!-- header inner -->
-         <div class="header">
+         <div id="header" class="header">
             <div class="container-fluid">
                <div class="row">
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                      <div class="sea_icon d_none ">
-                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a href="#findus"><i class="fa-solid fa-angles-down" aria-hidden="true"></i></a>
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col logo_section">
                      <div class="full">
-                        <div class="center-desk">
                            <div class="logo">
                               <a href="index.html"><img src="./images/logo_re.png" alt="#" /></a>
                            </div>
-                        </div>
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
@@ -90,8 +86,8 @@
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="text-bg">
-                           <h1>Port</h1>
-                           <span>Scanner</span>
+                           <h1>&nbspPort</h1>
+                           <span>&nbspScanner</span>
                            <a class="read_more" href="#PortScan">start</a>
                         </div>
                      </div>
@@ -101,7 +97,8 @@
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="text-bg">
-                           <h1>전기 포트</h1>
+                           <h1>&nbsp포트</h1>
+                           <h2>&nbsp스캐너</h2>
                            <a class="read_more" href="#PortScan">start</a>                         
                         </div>
                      </div>
@@ -285,9 +282,7 @@
                         o 학생 : 보안 허점을 발견하고 방어 침투 테스트를 통한 보안 공부를 통해 전공 학습 능력을 향상 </p>
                   </div>
                </div>
-               <div class="col-md-12">
-                  <a class="read_more" href="#">Read More</a>
-               </div>
+
             </div>
          </div>
       </div>
@@ -308,12 +303,10 @@
                <div class="col-md-4">
                   <div class="team_box">
                      <figure><img src="./images/프로필사진img.jpg.png" alt="#"/></figure>
-                     <div class="social_box">
-                        
+                     <div class="social_box">                       
                         <h3>김다경(조장)</h3>
-                        <br>
                         <li>정보통신공학부(정보보안학과) 3학년</li>
-                        <li>포트 스캐너 개발</li>
+                        <li><p>포트 스캐너 개발</p></li>
                      </div>
                   </div>
                </div>
@@ -321,13 +314,9 @@
                   <div class="team_box">
                      <figure><img src="./images/고양이.jpg" alt="#"/></figure>
                      <div class="social_box">
-                        <ul class="social_team">
-                           
-                           <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
                         <h3>김주영</h3>
                         <li>정보통신공학부(정보보안학과) 3학년</li>
-                        <li>프론트엔드</li>
+                        <li><p>프론트엔드</p></li>
                      </div>
                   </div>
                </div>
@@ -335,14 +324,9 @@
                   <div class="team_box">
                      <figure><img src="./images/서은.jpg" alt="#"/></figure>
                      <div class="social_box">
-                        <ul class="social_team">
-                           <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
                         <h3>장서은</h3>
-                        <p>백엔드 개발</p>
+                        <li>정보통신공학부(정보보안학과) 3학년</li>
+                        <li><p>백엔드 개발</p></li>
                      </div>
                   </div>
                </div>
@@ -356,8 +340,7 @@
       <footer>
          <div id="findus" class="footer">
             <div class="container">
-               <div class="row">
-                  
+               <div class="row">                 
                   <div class="col-md-4">
                      <div class="fid_box">
                         <h3>Find us  </h3>
@@ -376,21 +359,24 @@
                         <div class="map" id="inf">
                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.6743586064276!2d126.93187741520097!3d35.13979908032417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35718d6edd641411%3A0xbda86fe2b5d5056f!2z7KGw7ISg64yA7ZWZ6rWQIElU7Jy17ZWp64yA7ZWZ!5e0!3m2!1sko!2skr!4v1673505194968!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                        </div>
-                        
                      </div>
-                  </div>
-               </div>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     
                   </div>
                </div>
             </div>
          </div>
       </footer>
       <!-- end footer -->
+      <div class="header">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                  <div class="sea_icon d_none ">
+                     <a href="#header"><i class="fa-solid fa-angles-up" aria-hidden="true"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
