@@ -191,9 +191,6 @@
                }
             
             }
-            else{
-                echo "<font color='red'>Button didn't activate!!</font>\n";
-            }
             echo '<pre>';
             # print_r($output);
 
