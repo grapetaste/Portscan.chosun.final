@@ -101,8 +101,7 @@
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="text-bg">
-                           <h1>포트</h1>
-                           <h2>스캐너</h2>
+                           <h1>전기 포트</h1>
                            <a class="read_more" href="#PortScan">start</a>                         
                         </div>
                      </div>
