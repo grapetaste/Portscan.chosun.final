@@ -98,7 +98,7 @@
                      <div class="carousel-caption">
                         <div class="text-bg">
                            <h1>&nbsp포트</h1>
-                           <h2>&nbsp스캐너</h2>
+                           <span>&nbsp스캐너</span>
                            <a class="read_more" href="#PortScan">start</a>                         
                         </div>
                      </div>
